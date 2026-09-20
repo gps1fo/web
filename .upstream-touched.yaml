@@ -9,7 +9,10 @@ budget:
   max_files: 40          # plafond dur — à faire baisser au fil des trimestres
   max_added_lines: 2500
 
-allowed: []
+allowed:
+  - path: src/resources/l10n/ru.json
+    patch: P-001
+    adr: docs/adr/0005-rebranding-des-traductions.md
 # Les changelogs Liquibase n'y figurent jamais : voir l'ADR-0002 du méta-dépôt.
 #
 # Exemple :

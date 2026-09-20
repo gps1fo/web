@@ -582,7 +582,7 @@
     "notificatorMail": "Email",
     "notificatorSms": "СМС",
     "notificatorFirebase": "Push Уведомления Firebase",
-    "notificatorTraccar": "Push Уведомления Traccar",
+    "notificatorTraccar": "Push Уведомления",
     "notificatorTelegram": "Телеграмм",
     "notificatorPushover": "Нажатие",
     "notificatorWhatsapp": "WhatsApp",
