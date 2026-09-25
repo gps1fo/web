@@ -13,6 +13,9 @@ allowed:
   - path: src/resources/l10n/ru.json
     patch: P-001
     adr: docs/adr/0005-rebranding-des-traductions.md
+  - path: src/settings/components/SettingsMenu.jsx
+    patch: P-002
+    adr: docs/adr/0011-point-extension-de-la-carte.md
 # Les changelogs Liquibase n'y figurent jamais : voir l'ADR-0002 du méta-dépôt.
 #
 # Exemple :

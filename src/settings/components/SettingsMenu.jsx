@@ -20,6 +20,7 @@ import { useTranslation } from '../../common/components/LocalizationProvider';
 import { useAdministrator, useManager, useRestriction } from '../../common/util/permissions';
 import useFeatures from '../../common/util/useFeatures';
 import MenuItem from '../../common/components/MenuItem';
+import Gps1foMenu from '../../gps1fo/Gps1foMenu';
 
 const SettingsMenu = () => {
   const t = useTranslation();
@@ -125,6 +126,7 @@ const SettingsMenu = () => {
         {supportLink && (
           <MenuItem title={t('settingsSupport')} link={supportLink} icon={<HelpIcon />} />
         )}
+        <Gps1foMenu />
       </List>
       {manager && (
         <>
